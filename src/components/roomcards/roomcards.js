@@ -16,7 +16,7 @@ const Roomcards = () => {
             your friends
           </Card.Text>
           {/* TODO : Add Arrow Pic */}
-          <Card.Link> </Card.Link>  
+          <Card.Link>------{'>'}</Card.Link>  
         </Card.Body>
       </Card>
 
@@ -30,7 +30,7 @@ const Roomcards = () => {
             <br />
             your friends
           </Card.Text>
-          <Card.Link>Click here</Card.Link>
+          <Card.Link>------{'>'}</Card.Link>
         </Card.Body>
       </Card>
       {/* <Card>
