@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap');
+
+.roomcard1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cards{
+    display:flex;
+    align-items: flex-start;
+    
+    flex-direction: row;
+}
+.Card1 {
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: left;
+    color: white;
+    border-radius: 25px;
+    background-color: rgb(10, 10, 235);
+    width: 18rem;
+    margin-left: 20%;
+    font-family: 'Poppins', 'sans-serif';
+    
+}

@@ -1,14 +1,14 @@
-import './App.css';
-import Heading from './components/header/heading';
+import "./App.css";
+import Heading from "./components/header/heading";
+import Roomcards from "./components/roomcards/roomcards";
 
 function App() {
   return (
-    
-     <Heading />
-
-    )
-    
-  
+    <div>
+      <Heading />
+      <Roomcards />
+    </div>
+  );
 }
 
 export default App;
