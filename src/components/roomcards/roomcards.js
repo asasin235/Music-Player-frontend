@@ -1,10 +1,14 @@
 import React from "react";
-import { Card,Button } from "react-bootstrap";
+import  Card from "react-bootstrap/Card";
+import  Link  from "react-router-dom/Link";
+import Button from "react-bootstrap/Button"
 import "./roomcards.css";
+import { BsArrowRight } from "react-icons/bs";
 
 const Roomcards = () => {
   return (
     <div className="cards">
+      
       <Card className="Card1">
         <Card.Body>
           <Card.Title>
@@ -16,10 +20,16 @@ const Roomcards = () => {
             your friends
           </Card.Text>
           {/* TODO : Add Arrow Pic */}
-          <Card.Link>------{'>'}</Card.Link>  
+          <Link to={'/createRoom'} >
+          <Button variant="danger" size="lg">
+          ------{'>'}
+  </Button>
+          
+          </Link>  
         </Card.Body>
       </Card>
-
+      
+      
       <Card className="Card1">
         <Card.Body>
           <Card.Title>
@@ -30,9 +40,14 @@ const Roomcards = () => {
             <br />
             your friends
           </Card.Text>
-          <Card.Link>------{'>'}</Card.Link>
+          <Link to={'/JoinRoom'}>
+          <Button variant="danger" size="lg">
+          ------{'>'}
+  </Button>
+          </Link>
         </Card.Body>
       </Card>
+      
       {/* <Card>
         <Card.Header>Featured</Card.Header>
         <Card.Body>

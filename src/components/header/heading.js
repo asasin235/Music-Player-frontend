@@ -2,7 +2,7 @@ import React from 'react'
 import  './header.css';
 import logo from './LOGO.png';
 
-const heading = ()=>{
+const Heading = ()=>{
 
         return (
             <div className = "heading">
@@ -14,4 +14,4 @@ const heading = ()=>{
     
 }
 
-export default heading
+export default Heading

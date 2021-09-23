@@ -1,15 +1,27 @@
 import "./App.css";
-import Heading from "./components/header/heading";
-import Roomcards from "./components/roomcards/roomcards";
-import PlayButton from "./components/playButton/playButton";
 
+import CreateRoom from './pages/CreateRoom/CreateRoom'
+import JoinRoom from './pages/JoinRoom/JoinRoom'
+import HomePage from "./pages/HomePage/homePage";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 function App() {
   return (
     <div className= "App">
-      <Heading />
-      <Roomcards />
-      <PlayButton />
+      <BrowserRouter>
+      <Switch>
+        <Route exact path='/'>
+          <HomePage />
+        </Route>
+        <Route exact path='/createRoom'>
+          <CreateRoom />
+        </Route>
+        <Route exact path='/joinRoom'>
+          <JoinRoom />
+        </Route>
+      </Switch>
+    </BrowserRouter>
+      
       
     </div>
   );
