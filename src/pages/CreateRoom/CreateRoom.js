@@ -1,11 +1,18 @@
 
 import Link from 'react-router-dom/Link'
+import SecondHeader from '../../components/header/secondHeader'
+
+
 const CreateRoom =()=>
 {
     return( 
     <>
-    <h1>Men at Work</h1>
-    <Link to={'/'}> Go Back</Link>
+    <SecondHeader title="Create Room"/>
+   
+    
+    
+      <Link to={'/'}> Go Back</Link>
+
     </>
     )
 }
