@@ -2,6 +2,7 @@ import Participants from '../../components/Participants/Participants';
 import Textarea from '../../components/TextArea/TextArea';
 import { Container, Row, Col, Button } from "react-bootstrap";
 import './CreateRoomForm.css'
+import {MdContentCopy} from 'react-icons/md'
 function CreateRoomForm(){
     return(
         <div className='create-room-div'>
@@ -12,7 +13,7 @@ function CreateRoomForm(){
             </Col>
             <Col className='d-flex justify-content-end'>
               <Button size='lg' className='create-room-button'>
-                ROOM ID: THXQL &#128464;
+                ROOM ID: THXQL <MdContentCopy/>
               </Button>
             </Col>
           </Row>
@@ -31,8 +32,8 @@ function CreateRoomForm(){
               <div className='input-div'>
                 <h3> Passcode: </h3>
                 <div className='text-div'>
-                  <input type='text' />
-                  <Button>&#128464;</Button>
+                  <input type='password' />
+                  <Button><MdContentCopy/></Button>
                 </div>
               </div>
 
