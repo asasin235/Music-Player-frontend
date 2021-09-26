@@ -8,7 +8,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const CreateRoom = () => {
   return (
     <>
-      <SecondHeader title="Join Room" />
+      <SecondHeader title="Create Room" />
 
       <CreateRoomForm />
       <Link to={'/'}> Go Back</Link>

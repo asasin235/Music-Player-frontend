@@ -19,6 +19,9 @@ function App() {
         <Route exact path='/joinRoom'>
           <JoinRoom />
         </Route>
+        <Route exact path ='/loginPage'>
+          <LoginPage/>
+          </Route>
       </Switch>
     </BrowserRouter>
       
