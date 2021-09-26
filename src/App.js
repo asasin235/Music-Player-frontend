@@ -4,6 +4,7 @@ import CreateRoom from './pages/CreateRoom/CreateRoom'
 import JoinRoom from './pages/JoinRoom/JoinRoom'
 import Dashboard from './pages/dashboard/dashboard'
 import HomePage from "./pages/HomePage/homePage";
+import LoginPage from "./pages/LoginPage/LoginPage";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 function App() {

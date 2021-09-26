@@ -1,4 +1,4 @@
-import Heading from "../../components/header/heading";
+import Heading from "../../components/header/Heading";
 import Roomcards from "../../components/roomcards/roomcards";
 import PlayButton from "../../components/playButton/playButton";
 
