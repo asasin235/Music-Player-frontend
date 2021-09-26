@@ -2,6 +2,7 @@ import "./App.css";
 
 import CreateRoom from './pages/CreateRoom/CreateRoom'
 import JoinRoom from './pages/JoinRoom/JoinRoom'
+import Dashboard from './pages/dashboard/dashboard'
 import HomePage from "./pages/HomePage/homePage";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
@@ -22,6 +23,9 @@ function App() {
         <Route exact path ='/loginPage'>
           <LoginPage/>
           </Route>
+        <Route exact path='/dashboard'>
+          <Dashboard />
+        </Route>
       </Switch>
     </BrowserRouter>
       
