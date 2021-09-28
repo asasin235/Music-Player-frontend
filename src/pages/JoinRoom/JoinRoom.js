@@ -9,7 +9,7 @@ const JoinRoom = () => {
         <>
             <SecondHeader title="Join Room" />
             
-            <h1>Coming Soon!</h1>
+            
 
             <Link to={'/'}> <Container><Button size='lg' variant ='info'>Go Back</Button></Container></Link>
 

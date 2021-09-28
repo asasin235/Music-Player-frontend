@@ -25,6 +25,7 @@ p{
 hr{
     height: 3px;
     background-color: rgba(71, 87, 236, 1)    ;
-    border: none;
+    border: 2px solid rgba(71, 87, 236, 1);
     width: 45%;
+    margin-left: 23%;
 }
