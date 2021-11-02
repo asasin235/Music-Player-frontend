@@ -1,7 +1,7 @@
 import React  from 'react'
 // import { Button } from 'react-bootstrap';
 import  './playButton.css';
-import { BsArrowRight } from "react-icons/bs";
+// import { BsArrowRight } from "react-icons/bs";
 
 
 import FooterImage from './footerImage.png';
